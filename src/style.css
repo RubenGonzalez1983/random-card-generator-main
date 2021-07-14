@@ -1,1 +1,30 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#card {
+  background-color: white;
+  width: 200px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+#top {
+  text-align: left;
+}
+
+#center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bottom {
+  text-align: right;
+}
